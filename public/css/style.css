@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  background-image: url("../img/sunny_day.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* position: relative; */
+  /* height: 100vh; */
+  margin: 0 auto;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.main-content {
+  flex-grow: 1;
+}
+h1 {
+  font-family: "Racing Sans One", cursive;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  color: rgb(24, 82, 173);
+  text-align: center;
+  font-size: 5.5rem;
+  width: 100%;
+  padding-top: 20px;
+  text-shadow: 0 1px 0 #fffb04, 0 2px 0 #fffb04, 0 3px 0 #fffb04,
+    0 4px 0 #fffb04, 0 5px 0 #0b0b47, 0 6px 0 #0b0b47, 0 7px 0 #0b0b47;
+}
+h2 {
+  text-align: center;
+  color: rgb(19, 90, 156);
+  font-family: Fjalla One;
+  letter-spacing: 2px;
+  text-shadow: -1px 1px rgb(252, 252, 253), 0 2px #fff, 1px 3px rgb(19, 90, 156);
+
+  font-size: 1.75em;
+}
+h3 {
+  margin-top: 30px;
+  color: rgb(238, 16, 46);
+  text-align: center;
+  font-size: 1.5em;
+}
+.portrait {
+  display: block;
+  margin: 30px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid rgb(44, 89, 236);
+}
+form {
+  margin: 20px;
+  text-align: center;
+}
+#message-1,
+#message-2 {
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+}
+main {
+  width: 80vw;
+  margin: 0 auto;
+}
+article {
+  /* background-image: linear-gradient(
+    rgba(36, 165, 240, 0.5),
+    rgba(164, 222, 240, 0.5)
+  ); */
+  padding: 30px;
+  border-radius: 35px;
+  /* box-shadow: inset 0 0px rgba(255, 255, 255, 0.2),
+    inset 0 -15px 30px rgba(0, 0, 0, 0.4), 0 5px 10px rgba(0, 0, 0, 0.5); */
+}
+
+article h3 {
+  margin: 10px 0 20px 0;
+}
+article p {
+  padding: 15px 20px;
+}
+article:last-child {
+  margin-bottom: 0;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  color: rgb(15, 159, 216);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* position: fixed; */
+}
+header {
+  text-align: center;
+}
+header a {
+  color: #0d60ad;
+  padding: 0px 30px;
+  text-decoration: none;
+  font-family: "News Cycle", sans-serif;
+  font-size: 1.75em;
+}
+input {
+  color: red;
+  text-align: center;
+  background: transparent;
+  border: none;
+  outline: none;
+  height: 28px;
+  font-size: 1.5em;
+  padding: 8px;
+}
+button {
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  max-width: 150px;
+  padding: 12px 50px;
+  background-color: rgb(48, 170, 241);
+  color: white;
+  cursor: pointer;
+  box-shadow: inset 0 0px rgba(255, 255, 255, 0.2),
+    inset 0 -15px 30px rgba(0, 0, 0, 0.4), 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+button:hover {
+  background-color: transparent;
+  color: white;
+}
+#cl {
+  background: rgba(109, 218, 21, 0.6);
+  border-radius: 15px;
+  color: black;
+  /* background: rgb(48, 170, 241);
+  border-radius: 15px; */
+  /* box-shadow: inset 0 0px rgba(255, 255, 255, 0.2),
+    inset 0 -15px 30px rgba(0, 0, 0, 0.4), 0 5px 10px rgba(0, 0, 0, 0.5); */
+}
+.myStyle {
+  display: none;
+}
+input::placeholder {
+  text-align: center;
+  color: dodgerblue;
+}

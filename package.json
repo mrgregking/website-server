@@ -1,0 +1,19 @@
+{
+  "name": "website-server",
+  "version": "1.0.1",
+  "description": "Weather Forecast",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs,css"
+  },
+  "author": "Greg S King",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mapbox-gl": "^1.10.0",
+    "nodemon": "^2.0.3",
+    "request": "^2.88.2"
+  }
+}
